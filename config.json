@@ -1,0 +1,29 @@
+{
+  "general": {},
+  "testrail": {
+    "gAuthEndPoint": "/auth/login/=",
+    "gListProjectsEndPoint": "/api/v2/get_projects",
+    "gListMileStones": "/api/v2/get_milestones",
+    "gListProjectSuites": "/api/v2/get_suites",
+    "gAddNewRun": "/api/v2/add_run",
+    "gAddResults": "/api/v2/add_results_for_cases",
+    "gGetCurrentUser": "/api/v2/get_user_by_email"
+  },
+  "jira": {
+    "gAuthEndPoint": "rest/auth/1/session",
+    "gCreateIssue": "rest/api/latest/issue/"
+  },
+  "html": {},
+  "metaConfig": {
+    "projectMeta": "Project_Name", 
+    "suiteMeta": "Suite_Name",
+    "milestoneMeta": "MileStone_Name",
+    "testcaseID": "testcase_ID",
+    "componentMeta": "targetComponent",
+    "projectKeyMeta": "jiraProjectKey",
+    "priorityMeta": "testPriority",
+    "severityMeta": "testSeverity",
+    "labelsMeta": "testLabels",
+    "fixtureIDMeta": "fixtureID"
+  }
+}
